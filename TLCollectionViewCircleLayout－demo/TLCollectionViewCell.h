@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TLCollectionViewCell.h
 //  TLCollectionViewCircleLayout－demo
 //
 //  Created by andezhou on 15/7/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TLCollectionViewCell : UICollectionViewCell
 
 @end
-
