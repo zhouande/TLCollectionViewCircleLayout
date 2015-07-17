@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		13F2EE6F1B58A40C00067449 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE6E1B58A40C00067449 /* main.m */; };
 		13F2EE721B58A40D00067449 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE711B58A40D00067449 /* AppDelegate.m */; };
-		13F2EE751B58A40D00067449 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE741B58A40D00067449 /* ViewController.m */; };
 		13F2EE781B58A40D00067449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13F2EE761B58A40D00067449 /* Main.storyboard */; };
 		13F2EE7A1B58A40D00067449 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F2EE791B58A40D00067449 /* Images.xcassets */; };
 		13F2EE7D1B58A40D00067449 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F2EE7B1B58A40D00067449 /* LaunchScreen.xib */; };
 		13F2EE891B58A40D00067449 /* TLCollectionViewCircleLayout_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE881B58A40D00067449 /* TLCollectionViewCircleLayout_demoTests.m */; };
+		13F2EE941B58A42400067449 /* TLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE931B58A42400067449 /* TLCollectionViewController.m */; };
+		13F2EE971B58A4A900067449 /* TLCollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE961B58A4A900067449 /* TLCollectionViewCircleLayout.m */; };
+		13F2EE9A1B58A4C700067449 /* TLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F2EE991B58A4C700067449 /* TLCollectionViewCell.m */; };
+		13F2EE9C1B58A9EF00067449 /* bg0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13F2EE9B1B58A9EF00067449 /* bg0.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		13F2EE6E1B58A40C00067449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13F2EE701B58A40D00067449 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13F2EE711B58A40D00067449 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		13F2EE731B58A40D00067449 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		13F2EE741B58A40D00067449 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13F2EE771B58A40D00067449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13F2EE791B58A40D00067449 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13F2EE7C1B58A40D00067449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13F2EE821B58A40D00067449 /* TLCollectionViewCircleLayout－demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TLCollectionViewCircleLayout－demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F2EE871B58A40D00067449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13F2EE881B58A40D00067449 /* TLCollectionViewCircleLayout_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewCircleLayout_demoTests.m; sourceTree = "<group>"; };
+		13F2EE921B58A42400067449 /* TLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewController.h; sourceTree = "<group>"; };
+		13F2EE931B58A42400067449 /* TLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewController.m; sourceTree = "<group>"; };
+		13F2EE951B58A4A900067449 /* TLCollectionViewCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewCircleLayout.h; sourceTree = "<group>"; };
+		13F2EE961B58A4A900067449 /* TLCollectionViewCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewCircleLayout.m; sourceTree = "<group>"; };
+		13F2EE981B58A4C700067449 /* TLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLCollectionViewCell.h; sourceTree = "<group>"; };
+		13F2EE991B58A4C700067449 /* TLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLCollectionViewCell.m; sourceTree = "<group>"; };
+		13F2EE9B1B58A9EF00067449 /* bg0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg0.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,12 @@
 			children = (
 				13F2EE701B58A40D00067449 /* AppDelegate.h */,
 				13F2EE711B58A40D00067449 /* AppDelegate.m */,
-				13F2EE731B58A40D00067449 /* ViewController.h */,
-				13F2EE741B58A40D00067449 /* ViewController.m */,
+				13F2EE921B58A42400067449 /* TLCollectionViewController.h */,
+				13F2EE931B58A42400067449 /* TLCollectionViewController.m */,
+				13F2EE951B58A4A900067449 /* TLCollectionViewCircleLayout.h */,
+				13F2EE961B58A4A900067449 /* TLCollectionViewCircleLayout.m */,
+				13F2EE981B58A4C700067449 /* TLCollectionViewCell.h */,
+				13F2EE991B58A4C700067449 /* TLCollectionViewCell.m */,
 				13F2EE761B58A40D00067449 /* Main.storyboard */,
 				13F2EE791B58A40D00067449 /* Images.xcassets */,
 				13F2EE7B1B58A40D00067449 /* LaunchScreen.xib */,
@@ -96,6 +108,7 @@
 		13F2EE6C1B58A40C00067449 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13F2EE9B1B58A9EF00067449 /* bg0.jpg */,
 				13F2EE6D1B58A40C00067449 /* Info.plist */,
 				13F2EE6E1B58A40C00067449 /* main.m */,
 			);
@@ -202,6 +215,7 @@
 				13F2EE781B58A40D00067449 /* Main.storyboard in Resources */,
 				13F2EE7D1B58A40D00067449 /* LaunchScreen.xib in Resources */,
 				13F2EE7A1B58A40D00067449 /* Images.xcassets in Resources */,
+				13F2EE9C1B58A9EF00067449 /* bg0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13F2EE751B58A40D00067449 /* ViewController.m in Sources */,
+				13F2EE971B58A4A900067449 /* TLCollectionViewCircleLayout.m in Sources */,
+				13F2EE941B58A42400067449 /* TLCollectionViewController.m in Sources */,
+				13F2EE9A1B58A4C700067449 /* TLCollectionViewCell.m in Sources */,
 				13F2EE721B58A40D00067449 /* AppDelegate.m in Sources */,
 				13F2EE6F1B58A40C00067449 /* main.m in Sources */,
 			);
@@ -348,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TLCollectionViewCircleLayout－demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TLCollectionViewCircleLayout－demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

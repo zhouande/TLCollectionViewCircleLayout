@@ -10,4 +10,6 @@
 
 @interface TLCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic, strong) UIImageView *imageView;
+
 @end

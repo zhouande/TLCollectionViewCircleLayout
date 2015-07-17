@@ -10,4 +10,20 @@
 
 @implementation TLCollectionViewCell
 
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self.contentView addSubview:self.imageView];
+    }
+    return self;
+}
+
+- (UIImageView *)imageView {
+    if (!_imageView) {
+        _imageView = [[UIImageView alloc] initWithFrame:self.bounds];
+        _imageView.userInteractionEnabled = YES;
+    }
+    return _imageView;
+}
+
 @end
